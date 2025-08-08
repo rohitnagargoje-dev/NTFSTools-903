@@ -5,9 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class AppTest {
 
     
@@ -33,6 +31,20 @@ public class AppTest {
     	int excepted=-30;
     	
     	int actual=a1.sum(-10, -20);
+    	
+    	
+    	
+        assertEquals(excepted,actual);
+    }
+    
+    @Test
+    public void testSumsWithZero() {
+    	
+    	App a1=new App();
+    	
+    	int excepted=0;
+    	
+    	int actual=a1.sum(0, 0);
     	
     	
     	
