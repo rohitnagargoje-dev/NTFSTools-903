@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.nit.main.AppTest" time="0.05" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.nit.main.AppTest" time="0.066" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\nagar\git\NTFSTools-903-Dev1LocalRepository\GitProj1\target\test-classes;C:\Users\nagar\git\NTFSTools-903-Dev1LocalRepository\GitProj1\target\classes;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\nagar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nagar\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\nagar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\nagar\git\NTFSTools-903\GitProj1\target\test-classes;C:\Users\nagar\git\NTFSTools-903\GitProj1\target\classes;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\nagar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nagar\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\nagar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\nagar\AppData\Local\Temp\surefire13996603399878101787\surefirebooter-20250809010041672_3.jar C:\Users\nagar\AppData\Local\Temp\surefire13996603399878101787 2025-08-09T01-00-41_459-jvmRun1 surefire-20250809010041672_1tmp surefire_0-20250809010041672_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nagar\AppData\Local\Temp\surefire4835868773282767699\surefirebooter-20250809011713401_3.jar C:\Users\nagar\AppData\Local\Temp\surefire4835868773282767699 2025-08-09T01-17-13_195-jvmRun1 surefire-20250809011713401_1tmp surefire_0-20250809011713401_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\nagar\git\NTFSTools-903-Dev1LocalRepository\GitProj1\target\test-classes;C:\Users\nagar\git\NTFSTools-903-Dev1LocalRepository\GitProj1\target\classes;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\nagar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nagar\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\nagar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\nagar\git\NTFSTools-903\GitProj1\target\test-classes;C:\Users\nagar\git\NTFSTools-903\GitProj1\target\classes;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\nagar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nagar\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\nagar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nagar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nagar"/>
     <property name="user.language" value="en"/>
@@ -26,12 +26,12 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
     <property name="style.color" value="always"/>
-    <property name="basedir" value="C:\Users\nagar\git\NTFSTools-903-Dev1LocalRepository\GitProj1"/>
+    <property name="basedir" value="C:\Users\nagar\git\NTFSTools-903\GitProj1"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nagar\AppData\Local\Temp\surefire13996603399878101787\surefirebooter-20250809010041672_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nagar\AppData\Local\Temp\surefire4835868773282767699\surefirebooter-20250809011713401_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-LTS-2724"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\nagar\AppData\Local\Temp\"/>
     <property name="java.version" value="17"/>
-    <property name="user.dir" value="C:\Users\nagar\git\NTFSTools-903-Dev1LocalRepository\GitProj1"/>
+    <property name="user.dir" value="C:\Users\nagar\git\NTFSTools-903\GitProj1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -57,6 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="substractionOfTwoNumbers" classname="com.nit.main.AppTest" time="0.025"/>
+  <testcase name="substractionOfTwoNumbers" classname="com.nit.main.AppTest" time="0.028"/>
+  <testcase name="testSumsWithZero" classname="com.nit.main.AppTest" time="0.001"/>
   <testcase name="additionOfTwoNumbers" classname="com.nit.main.AppTest" time="0.001"/>
 </testsuite>
